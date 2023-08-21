@@ -1,0 +1,13 @@
+[] - Firebase
+	[] - Products
+	[] - Orders
+	[] - Feedbacks
+
+[] - MainPage
+	[] - Orders
+	[] - Feedbacks
+[] - ProductPage
+	[] - OrderInfo
+
+Stack:
+Firebase,React-router-dom,redux;

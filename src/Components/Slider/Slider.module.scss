@@ -1,0 +1,72 @@
+.Slider {
+  display: flex;
+  margin: 40px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.MainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.MainContent img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.MainContentInfo h3 {
+  font-size: 2em;
+}
+.MainContentInfo p {
+  font-size: 1.6em;
+  font-weight: var(--font-weight-l);
+  max-width: 600px;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+.LeftArrow img,
+.rightArrow img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.LeftArrow img:hover,
+.rightArrow img:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .MainContent img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .MainContent img {
+    width: 200px;
+    height: 200px;
+  }
+  .LeftArrow img,
+  .rightArrow img {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .MainContent img {
+    width: 150px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,26 @@
+parser: '@typescript-eslint/parser'
+plugins: ['@typescript-eslint', 'react', 'react-hooks', 'prettier']
+extends:
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:react/recommended'
+  - 'plugin:react-hooks/recommended'
+  - 'plugin:prettier/recommended'
+  - 'prettier' # It turns off any ESLint rules that conflict with Prettier's formatting.
+rules:
+  '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }] # report unused variables as `warnings`, exept when their name starts with `_`.
+  'react/react-in-jsx-scope': off # checking whether React was imported in `.tsx` files.
+  'react/no-unescaped-entities': off # requires you to replace some special chars in JSX strings.
+  'prettier/prettier': warn # downgrade `prettier` problems to be reported as `warnings` not as `errors`.
+settings:
+  react:
+    version: detect
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 12
+  sourceType: module # we're using ES modules (like `import`, `export` statements).
+env: # describe the environment so eslint doesn't report the available global vars as missing
+  browser: true
+  node: true
+  es2021: true

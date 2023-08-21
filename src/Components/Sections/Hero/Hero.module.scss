@@ -1,0 +1,26 @@
+.Hero {
+  background: url('../../../Assets/images/hero/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 5px solid black;
+}
+
+.Wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.Title h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.Title h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: var(--font-weight-l);
+}
+
+.ButtonWrapper {
+  margin-bottom: 15px;
+}

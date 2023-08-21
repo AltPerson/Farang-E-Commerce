@@ -1,0 +1,64 @@
+.Intro {
+  background: url('../../../Assets/images/intro/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 5px solid black;
+}
+
+.Wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.Title h3 {
+  font-size: 2.5em;
+  background-color: rgb(233, 226, 226);
+  border-radius: 25px;
+  display: inline;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.Info {
+  margin: 40px 0;
+  padding: 5px 5px;
+  border-radius: 50px;
+}
+
+.InfoImages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.InfoImages img {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.InfoText {
+  margin-top: 10px;
+  background-color: rgb(233, 226, 226);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  font-weight: var(--font-weight-l);
+}
+
+.InfoText p {
+  font-size: 1.2em;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+.ButtonWrapper {
+  margin-bottom: 15px;
+}
+
+.ButtonWrapper button {
+  border: 2px solid white;
+}

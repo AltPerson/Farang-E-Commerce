@@ -1,0 +1,79 @@
+.Footer {
+  background: url(../../Assets/images/header/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 0;
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.Socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Socials img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  cursor: pointer;
+  transform: all 0.3s ease;
+}
+
+.Socials img:hover {
+  transform: scale(1.1);
+}
+
+.Socials img:not(:last-child) {
+  margin-right: 20px;
+}
+
+.Copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+}
+
+.Copyright a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Copyright img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 520px) {
+  .Wrapper {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .Socials {
+    margin-bottom: 30px;
+  }
+  .Wrapper > div:first-child {
+    padding: 0;
+  }
+}

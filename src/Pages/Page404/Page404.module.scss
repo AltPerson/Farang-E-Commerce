@@ -1,0 +1,23 @@
+.Page404 {
+  min-height: calc(100vh - 198px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 3em;
+}
+
+.Back {
+  font-size: 1.5em;
+}
+
+.Back a {
+  text-decoration: none;
+  color: #0055a9;
+}
+
+.Wrapper {
+  text-align: center;
+}

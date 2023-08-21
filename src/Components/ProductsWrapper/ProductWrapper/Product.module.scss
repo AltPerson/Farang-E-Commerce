@@ -1,0 +1,47 @@
+.ProductInfo h5 {
+  font-weight: var(--font-weight-l);
+  margin-bottom: 5px;
+}
+
+.Product a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.Product {
+  border: 4px solid rgb(212, 212, 212);
+  border-radius: 15px;
+  transition: all 0.3s ease-in;
+}
+
+.ProductImg {
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+.ProductImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 4px solid rgb(212, 212, 212);
+  transition: all 0.3s ease-in;
+}
+
+.ProductInfo h3 {
+  margin: 5px 0;
+}
+
+.Product:hover {
+  border: 4px solid grey;
+  transform: translate(-20px, -20px);
+  box-shadow: 35px 35px 5px rgb(212, 212, 212);
+}
+
+.Product:hover .ProductImg img {
+  border-bottom: 4px solid grey;
+}

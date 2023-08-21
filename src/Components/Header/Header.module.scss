@@ -1,0 +1,165 @@
+.Header {
+  background: url(../../Assets/images/header/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+  color: white;
+  text-transform: uppercase;
+  position: sticky;
+  z-index: 500;
+  width: 100%;
+  height: auto;
+  top: 0;
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  transition: all 0.1s linear;
+}
+
+.Less {
+  padding: 5px 0;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Navbar {
+  flex: 1 1 auto;
+  font-weight: var(--font-weight-l);
+}
+
+.Navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbar ul li a {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transition: all 0.5s ease-out;
+}
+
+.Navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.Navbar ul li a:hover {
+  background-color: grey;
+}
+
+.Basket {
+  display: flex;
+  align-items: end;
+  font-weight: var(--font-weight-l);
+}
+
+.BasketImg {
+  position: relative;
+  cursor: pointer;
+}
+
+.BasketImg img {
+  position: relative;
+  top: 4px;
+}
+
+.BasketImg span {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  font-size: 8px;
+  min-width: 20px;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 9px;
+}
+
+.BasketImg:hover > span {
+  animation: up 0.2s linear infinite alternate;
+}
+
+.BasketInfo {
+  margin-left: 10px;
+}
+.BasketInfo span {
+  font-size: 0.8em;
+  display: block;
+}
+
+.Burger {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+
+.Burger:hover {
+  transform: scale(1.1);
+}
+
+.Burger img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Language {
+  color: white;
+  margin-left: 20px;
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  cursor: pointer;
+  span {
+    margin-left: 2px;
+    font-size: 0.6em;
+  }
+  .languageIcon {
+    fill: white;
+  }
+  svg {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@keyframes up {
+  from {
+    top: -14px;
+  }
+  to {
+    top: -20px;
+  }
+}
+
+@media only screen and (max-width: 831px) {
+  .Navbar {
+    display: none;
+  }
+  .Burger {
+    display: block;
+  }
+  .Basket {
+    flex: 1 0 auto;
+    justify-content: end;
+  }
+}

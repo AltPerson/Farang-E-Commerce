@@ -1,0 +1,86 @@
+.Feedbacks {
+  background: url('../../../Assets/images/feedback/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 5px solid black;
+}
+
+.Wrapper {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.Title h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+.FeedBackWrapper {
+  margin-bottom: 15px;
+}
+
+.FeedBackWrapper h2 {
+  font-size: 2em;
+}
+
+.Form {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto 0;
+}
+.FormName label,
+.FormText label,
+.FormFile label {
+  font-size: 1.2em;
+  display: block;
+
+  font-weight: var(--font-weight-l);
+}
+
+.FormName input,
+.FormText input {
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.FormFile {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.FormFile span {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  font-size: 0.7em;
+  max-width: 130px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  background: white;
+  padding: 15px 5px 5px;
+  clip-path: polygon(
+    0 14%,
+    33% 14%,
+    100% 0,
+    74% 14%,
+    100% 14%,
+    100% 100%,
+    0 100%
+  );
+  font-weight: var(--font-weight-r);
+}
+
+.FormSend button {
+  margin-top: 30px;
+  font-size: 2em;
+}

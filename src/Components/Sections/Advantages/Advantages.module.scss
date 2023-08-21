@@ -1,0 +1,41 @@
+.Advantages {
+  background: url('../../../Assets/images/pros/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+  border-bottom: 5px solid black;
+}
+
+.Wrapper {
+  text-align: left;
+  padding: 30px 0;
+}
+
+.Title h3 {
+  font-size: 2.5em;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.Info {
+  margin: 40px 0;
+}
+
+.Info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Info p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.Info p span {
+  // text-shadow: 1px 1px 20px black;
+  font-size: 1.5em;
+  font-weight: var(--font-weight-l);
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+}

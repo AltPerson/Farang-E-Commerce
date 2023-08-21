@@ -1,0 +1,189 @@
+// * {
+//   outline: 1px solid black;
+// }
+
+.Product {
+  min-height: calc(100vh - 256px);
+  position: relative;
+}
+
+.Wrapper {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.CategoryUndefined {
+  margin-top: 58px;
+  text-align: center;
+  font-size: 3em;
+  a {
+    text-decoration: none;
+    margin-left: 2px;
+    color: #0055a9;
+    font-size: 0.8em;
+  }
+}
+
+.Title {
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.ProductInfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.ImagesWrapper {
+  flex: 1 0 40%;
+}
+
+.InfoWrapper {
+  flex: 1 0 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  p {
+    display: block;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5em;
+    text-align: justify;
+    text-indent: 1.5em;
+    font-size: 1.3em;
+    font-weight: var(--font-weight-l);
+  }
+  form {
+    justify-content: center;
+    gap: 3em;
+  }
+}
+
+.MainPicture {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 5px;
+  img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 4px solid rgb(212, 212, 212);
+    border-radius: 15px;
+  }
+}
+
+.ExtraPicture {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 200px;
+  div {
+    width: 33%;
+  }
+  img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgb(212, 212, 212);
+    border-radius: 15px;
+  }
+}
+
+.SizesWrapper {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.BuyWrapper {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.FlexOne {
+  justify-content: flex-end;
+}
+
+.FlexTwo {
+  justify-content: space-between;
+}
+
+.SizesWrapper {
+  select {
+    font-size: 1.3em;
+    outline: none;
+    border: 0;
+    border-bottom: solid 1px #484848;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    font-weight: var(--font-weight-l);
+    padding: 5px 30px 5px 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: url('../../Assets/images/common/drop.png');
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: right center;
+  }
+}
+
+.ButtonBuyWrapper {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  span {
+    font-size: 1.4em;
+    font-weight: var(--font-weight-l);
+    margin-right: 10px;
+  }
+  button {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .MainPicture {
+    height: 400px;
+  }
+  .ExtraPicture {
+    height: 150px;
+  }
+  .ProductInfo {
+    flex-direction: column;
+  }
+  .InfoWrapper {
+    p {
+      margin-top: 0.5em;
+    }
+  }
+  .BuyWrapper {
+    margin-top: 2em;
+    gap: 2em;
+    justify-content: center;
+  }
+}
+
+.OthersProducts {
+  width: 100%;
+  .Title {
+    margin: 40px 0 20px;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 440px) {
+  .BuyWrapper {
+    margin-top: 2em;
+    gap: 2em;
+    justify-content: center;
+  }
+}

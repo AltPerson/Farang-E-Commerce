@@ -1,0 +1,147 @@
+.Location {
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid black;
+  position: relative;
+}
+
+.Phone {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 30;
+  right: 10%;
+  bottom: 10%;
+  display: inline;
+}
+
+.Phone span {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  font-size: 0.8em;
+  font-weight: var(--font-weight-l);
+  background: white;
+  padding: 5px 10px 20px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  animation: hide 1.5s ease-in infinite alternate;
+}
+
+.Phone img {
+  position: relative;
+  z-index: 30;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  animation: drag 2s ease-in infinite alternate;
+}
+
+.Contact {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px black;
+}
+
+.Close {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-weight: var(--font-weight-r);
+}
+
+.Close:hover {
+  font-weight: var(--font-weight-b);
+}
+
+.Contact h4 {
+  font-weight: var(--font-weight-l);
+}
+
+.Contact h3 {
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+.Contact h4 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.Contact form {
+  // display: flex;
+  // flex-direction: column;
+  // gap: 20px;
+}
+
+.Contact form input {
+  outline: none;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Contact form button {
+  font-size: 1.6em;
+  display: block;
+  width: 100%;
+}
+
+.Note {
+  position: absolute;
+  z-index: 30;
+  left: 20%;
+  bottom: -15%;
+  background-color: rgba(116, 252, 116, 0.9);
+  padding: 20px 10px 10px;
+  border: none;
+  color: black;
+  font-weight: var(--font-weight-l);
+  clip-path: polygon(86% 21%, 100% 0, 100% 26%, 100% 100%, 0 100%, 0 21%);
+}
+
+@keyframes drag {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes hide {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .Contact {
+    right: 5%;
+    left: 5%;
+  }
+}
