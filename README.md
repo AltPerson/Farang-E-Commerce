@@ -1,4 +1,4 @@
-<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/e0117a9e-5f37-4d79-a78c-a9d9a7f25416'/></div>
+<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/d43b6176-5961-49d6-88cd-dda752bf3c9a'/></div>
 
 <h2>About the project</h2>
 
