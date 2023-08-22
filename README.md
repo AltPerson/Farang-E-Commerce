@@ -2,9 +2,7 @@
 
 <h2>About the project</h2>
 
-<p>This is a minimalist e-commerce website built with React and SCSS. This
-website features a modern and intuitive design, with easy-to-use navigation and a
-simple shopping experience that puts the focus on the products.</p>
+<p>This is a farang e-commerce website. This website was created as pet-project, as reference was using <a href='https://teamfarang.com'>original website of team farang</a> features a modern and intuitive design, with easy-to-use navigation and a simple shopping experience that puts the focus on the products.</p>
 
 👉 Live Demo: <a href='https://farang-e-commerce.netlify.app/'>Farang E-Commerce Demo</a>
 
