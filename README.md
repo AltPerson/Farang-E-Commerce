@@ -2,7 +2,8 @@
 
 <h2>About the project</h2>
 
-<p>This is a farang e-commerce website. This website was created as pet-project, as reference was using <a href='https://teamfarang.com'>original website of team farang</a> features a modern and intuitive design, with easy-to-use navigation and a simple shopping experience that puts the focus on the products.</p>
+<p>This is a farang e-commerce website. This website was created as pet-project, as reference was using <a href='https://teamfarang.com'>original website of team farang</a>.
+Website.The website has a convenient and clear design, which will allow you to feel the experience of buying goods more easily. </p>
 
 👉 Live Demo: <a href='https://farang-e-commerce.netlify.app/'>Farang E-Commerce Demo</a>
 
