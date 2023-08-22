@@ -1,4 +1,4 @@
-<div align='center'><img src='[https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/eb2b668f-ee39-40e9-8e4c-cdbbbb38cddd](https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/857710ca-be61-42fb-9ce9-3cdbaf9a893c)'/></div>
+<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/2da2f90e-5a4e-43f0-b2f2-09d429ce1619'/></div>
 
 <h2>About the project</h2>
 
@@ -9,6 +9,7 @@ simple shopping experience that puts the focus on the products.</p>
 👉 Live Demo: <a href='https://farang-e-commerce.netlify.app/'>Farang E-Commerce Demo</a>
 
 <h3>Build with:</h3>
+
 
 » SCSS <br>
 » React TS
