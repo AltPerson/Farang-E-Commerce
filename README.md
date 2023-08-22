@@ -1,4 +1,4 @@
-<div align='center'><img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/eb2b668f-ee39-40e9-8e4c-cdbbbb38cddd'/></div>
+<div align='center'><img src='[https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/eb2b668f-ee39-40e9-8e4c-cdbbbb38cddd](https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/857710ca-be61-42fb-9ce9-3cdbaf9a893c)'/></div>
 
 <h2>About the project</h2>
 
@@ -6,7 +6,7 @@
 website features a modern and intuitive design, with easy-to-use navigation and a
 simple shopping experience that puts the focus on the products.</p>
 
-👉 Live Demo: <a href='https://farang-e-commerce.netlify.app/'>Ecommerce Demo</a>
+👉 Live Demo: <a href='https://farang-e-commerce.netlify.app/'>Farang E-Commerce Demo</a>
 
 <h3>Build with:</h3>
 
