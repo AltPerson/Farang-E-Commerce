@@ -22,14 +22,14 @@ The website has a convenient and clear design, which will allow you to feel the 
 </div>
 
 <br><br>
-<h3 align='center'>Products Page 👇</h3>
+<h3 align='center'>Products Page 📄</h3>
 
 <div align='center'>
 <img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/e0b93727-2ffa-4bdc-9a7a-7e5888218598'/>
 
 <br>
 <br>
-<h3 align='center'>Product Page 🎁</h3>
+<h3 align='center'>Product Page 📄</h3>
 
 <div align='center'>
 <img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/f5038f4f-cf19-4f81-8a7a-c71b11e5373b'/>
