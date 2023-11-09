@@ -18,7 +18,8 @@ The website has a convenient and clear design, which will allow you to feel the 
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/bbc7acb8-bf05-4a71-a0cb-eaea4aec9063'/>
+  
+<img src='![farang-e-commerce netlify app_](https://github.com/AltPerson/Farang-E-Commerce/assets/39427362/cfd84d30-3671-495c-b4d6-c073e8734c4c)'/>
 </div>
 
 <br><br>
