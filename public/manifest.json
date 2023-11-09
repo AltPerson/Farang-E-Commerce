@@ -1,1 +1,5 @@
-{ "start_url": "." }
+{
+  "short_name": "Farang-E-Commerce",
+  "name": "Farang-E-Commerce Pet-Project",
+  "start_url": "."
+}

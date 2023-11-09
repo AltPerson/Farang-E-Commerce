@@ -9,7 +9,7 @@ import { locationSection } from 'Data/translation/locationSection';
 import { TranslateContext } from 'App/context/translateContext';
 
 const Location: FC = () => {
-  const position: LatLngTuple = [50.98027551612962, 28.660009782290466];
+  const position: LatLngTuple = [51.50542799558564, -0.11356446178464283];
   const { language } = useContext(TranslateContext);
   const [menuModal, setMenuModal] = useState(false);
   const [note, setNote] = useState(false);
@@ -39,8 +39,8 @@ const Location: FC = () => {
   return (
     <section className={styles.Location} onClick={sectionHandler}>
       <MapContainer
-        center={[50.95150409733651, 28.649230546540824]}
-        zoom={12}
+        center={[51.50542799558564, -0.11356446178464283]}
+        zoom={15}
         scrollWheelZoom={false}
         style={{ height: '500px', width: '100%', zIndex: '2' }}
       >
@@ -67,7 +67,7 @@ const Location: FC = () => {
           <form action="" onSubmit={formHandler}>
             <input
               type="text"
-              name="name"
+              aria-label="name"
               placeholder={locationSection[language]['formInputName']}
               required
               pattern="[a-z,A-Z,а-яієїґ,А-ЯҐЄІЇ]+"
@@ -76,8 +76,7 @@ const Location: FC = () => {
             />
             <input
               type="tel"
-              id="phone"
-              name="phone"
+              aria-label="phone"
               pattern="[\+]380[\(][1-9]{2}[\)][0-9]{3}[\-][0-9]{2}[\-][0-9]{2}"
               required
               placeholder="0983175281"

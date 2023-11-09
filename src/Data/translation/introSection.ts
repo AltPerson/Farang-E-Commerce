@@ -1,6 +1,7 @@
 export const introSection = {
   en: {
-    title: "Clothes you won't forget",
+    title: 'Clothes you',
+    title2: "won't forget",
     info: `We took the values we learned as freelancers and
 		have applied them to everything in our lives, from making videos
 		to fashion Farang Clothing strives to be creative, authentic and
@@ -10,7 +11,8 @@ export const introSection = {
     button: 'View products',
   },
   ua: {
-    title: 'Одяг який ви не забудете',
+    title: 'Одяг який',
+    title2: 'ви не забудете',
     info: `Ми взяли цінності, яких навчилися, будучи фріранерами, і
 		застосували їх до всього в нашому житті, від створення відео
 		до моди. Farang Clothing прагне бути креативним, автентичним і

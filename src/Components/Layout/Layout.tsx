@@ -22,7 +22,7 @@ const Layout: FC<IProps> = ({ toggleModal }) => {
         <ul>
           <li>
             <LinkS
-              exact="true"
+              href="#"
               offset={-100}
               to="intro"
               spy={true}
@@ -48,7 +48,7 @@ const Layout: FC<IProps> = ({ toggleModal }) => {
           </li>
           <li>
             <LinkS
-              exact="true"
+              href="#"
               offset={-70}
               to="feedback"
               spy={true}
@@ -69,7 +69,7 @@ const Layout: FC<IProps> = ({ toggleModal }) => {
           </li>
           <li>
             <LinkS
-              exact="true"
+              href="#"
               offset={-120}
               to="advantages"
               spy={true}
@@ -90,7 +90,7 @@ const Layout: FC<IProps> = ({ toggleModal }) => {
           </li>
           <li>
             <LinkS
-              exact="true"
+              href="#"
               offset={-120}
               to="contact"
               spy={true}

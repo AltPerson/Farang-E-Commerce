@@ -34,11 +34,11 @@ const Header: FC<IProps> = ({ toggleModal }) => {
             <ul>
               <li>
                 <LinkS
-                  exact="true"
                   offset={-100}
                   to="intro"
                   spy={true}
                   smooth={true}
+                  href="#"
                   onClick={(e) => {
                     if (location.pathname !== '/') {
                       navigate('/');
@@ -56,7 +56,7 @@ const Header: FC<IProps> = ({ toggleModal }) => {
               </li>
               <li>
                 <LinkS
-                  exact="true"
+                  href="#"
                   offset={-70}
                   to="feedback"
                   spy={true}
@@ -75,7 +75,7 @@ const Header: FC<IProps> = ({ toggleModal }) => {
               </li>
               <li>
                 <LinkS
-                  exact="true"
+                  href="#"
                   offset={-120}
                   to="advantages"
                   spy={true}
@@ -94,7 +94,7 @@ const Header: FC<IProps> = ({ toggleModal }) => {
               </li>
               <li>
                 <LinkS
-                  exact="true"
+                  href="#"
                   offset={-120}
                   to="contact"
                   spy={true}

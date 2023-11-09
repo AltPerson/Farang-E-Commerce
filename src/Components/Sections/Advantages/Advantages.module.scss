@@ -1,5 +1,5 @@
 .Advantages {
-  background: url('../../../Assets/images/pros/bg.jpg');
+  background: url('../../../Assets/images/pros/bg.webp');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: top center;
@@ -25,6 +25,12 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  img {
+    max-width: 80px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 .Info p:not(:last-child) {

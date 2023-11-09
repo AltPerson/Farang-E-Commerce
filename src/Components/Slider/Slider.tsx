@@ -36,10 +36,12 @@ const Slider: FC<IProps> = ({ sliderData }) => {
       </div>
       <div className={styles.MainContent}>
         <div className={styles.MainContentInfo}>
-          <h3>{sliderData[sliderIndex].title}</h3>
+          <h1>{sliderData[sliderIndex].title}</h1>
           <p>{sliderData[sliderIndex].txt}</p>
         </div>
-        <img src={sliderData[sliderIndex].img} alt="sliderImg" />
+        <div className={styles.MainContentImage}>
+          <img src={sliderData[sliderIndex].img} alt="sliderImg" />
+        </div>
       </div>
       <div className={styles.rightArrow} onClick={() => sliderHandler('right')}>
         <img src={rightArrow} alt="rightArrow" />

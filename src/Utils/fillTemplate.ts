@@ -2,7 +2,7 @@ import { KeyboardEvent } from 'react';
 
 let template = '+38_(__)___-__-__';
 
-export function fillTemplate(e: KeyboardEvent<HTMLInputElement>): string {
+export function fillTemplate(e: KeyboardEvent<HTMLInputElement>): void {
   const inputElement = e.currentTarget;
   const keyInput = e.key;
   inputElement.value = inputElement.value.replace(/[^+,^\d,^(|)^-]/g, '');

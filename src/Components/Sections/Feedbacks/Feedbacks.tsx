@@ -65,20 +65,20 @@ const Feedbacks: FC = () => {
                   <label htmlFor="name">
                     {feedBackSection[language]['formName']}
                   </label>
-                  <input type="name" name="name" required />
+                  <input type="name" id="name" required />
                 </div>
                 <div className={styles.FormText}>
                   <label htmlFor="message">
                     {feedBackSection[language]['formMessage']}
                   </label>
-                  <input type="message" name="message" required />
+                  <input type="message" id="message" required />
                 </div>
                 <div className={styles.FormFile}>
                   <label htmlFor="file">
                     {feedBackSection[language]['formFile']}
                   </label>
                   <input
-                    name="file"
+                    id="file"
                     type="file"
                     accept="image/png, image/jpeg,image/webp"
                     onChange={fileHandler}

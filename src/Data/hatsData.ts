@@ -7,7 +7,7 @@ import wire3 from 'Assets/images/products/hats/wire/wire3.webp';
 import shady from 'Assets/images/products/hats/shady/shady.webp';
 import shady2 from 'Assets/images/products/hats/shady/shady2.webp';
 import shady3 from 'Assets/images/products/hats/shady/shady3.webp';
-import essential from 'Assets/images/products/hats/essential/essential.jpg';
+import essential from 'Assets/images/products/hats/essential/essential.webp';
 import essential2 from 'Assets/images/products/hats/essential/essential2.webp';
 import essential3 from 'Assets/images/products/hats/essential/essential3.webp';
 import { ProductCategories } from 'App/types/types';

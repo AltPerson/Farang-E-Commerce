@@ -18,13 +18,20 @@ const Intro: FC = () => {
         <Container>
           <div className={styles.Wrapper}>
             <div className={styles.Title}>
-              <h3>{introSection[language]['title']}</h3>
+              <h1>{introSection[language]['title']}</h1>
+              <h1>{introSection[language]['title2']}</h1>
             </div>
             <div className={styles.Info}>
               <div className={styles.InfoImages}>
-                <img src={img1} alt="img-1" />
-                <img src={img2} alt="img-2" />
-                <img src={img3} alt="img-3" />
+                <div>
+                  <img src={img1} alt="img-1" />
+                </div>
+                <div>
+                  <img src={img2} alt="img-2" />
+                </div>
+                <div>
+                  <img src={img3} alt="img-3" />
+                </div>
               </div>
               <div className={styles.InfoText}>
                 <p>{introSection[language]['info']}</p>

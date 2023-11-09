@@ -18,8 +18,8 @@ const ProductWrapper: FC<IProps> = ({ id, img, title, price, category }) => {
           <img src={img} alt="img" />
         </div>
         <div className={styles.ProductInfo}>
-          <h3>{title}</h3>
-          <h5>{`$${price.toFixed(2)}`}</h5>
+          <h2>{title}</h2>
+          <h3>{`$${price.toFixed(2)}`}</h3>
         </div>
       </Link>
     </div>

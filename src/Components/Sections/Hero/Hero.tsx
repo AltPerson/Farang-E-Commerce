@@ -20,14 +20,8 @@ const Hero: FC = () => {
           </div>
           <Slider sliderData={sliderDataHero[language]} />
           <div className={styles.ButtonWrapper}>
-            <LinkS
-              exact="true"
-              offset={-100}
-              to="sales"
-              spy={true}
-              smooth={true}
-            >
-              <Button text={hero[language]['button']} />
+            <LinkS offset={-100} to="sales" spy={true} smooth={true} href="#">
+              <Button text={hero[language]['button']}></Button>
             </LinkS>
           </div>
         </div>

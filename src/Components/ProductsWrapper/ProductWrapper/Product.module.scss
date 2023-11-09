@@ -1,4 +1,4 @@
-.ProductInfo h5 {
+.ProductInfo h3 {
   font-weight: var(--font-weight-l);
   margin-bottom: 5px;
 }
@@ -27,12 +27,13 @@
 .ProductImg img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
   border-radius: 15px 15px 0 0;
   border-bottom: 4px solid rgb(212, 212, 212);
   transition: all 0.3s ease-in;
 }
 
-.ProductInfo h3 {
+.ProductInfo h2 {
   margin: 5px 0;
 }
 

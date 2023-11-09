@@ -12,15 +12,20 @@
   flex-wrap: wrap-reverse;
 }
 
-.MainContent img {
+.MainContentImage {
   width: 300px;
   height: 300px;
+}
+.MainContent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 50%;
   object-fit: cover;
   margin-left: 30px;
 }
 
-.MainContentInfo h3 {
+.MainContentInfo h1 {
   font-size: 2em;
 }
 .MainContentInfo p {
@@ -46,27 +51,23 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .MainContent img {
+  .MainContentImage {
     width: 250px;
     height: 250px;
+    img {
+      margin-left: 0px;
+    }
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .MainContent img {
-    width: 200px;
-    height: 200px;
+  .MainContentImage {
+    width: 150px;
+    height: 150px;
   }
   .LeftArrow img,
   .rightArrow img {
     height: 15px;
     width: 15px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .MainContent img {
-    width: 150px;
-    height: 150px;
   }
 }
