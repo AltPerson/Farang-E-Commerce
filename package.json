@@ -1,15 +1,12 @@
 {
   "name": "farang-e-commerce",
   "version": "1.0.0",
-  "homepage": "https://altperson.github.io/Farang-E-Commerce/",
   "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",

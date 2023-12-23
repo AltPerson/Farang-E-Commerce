@@ -125,7 +125,13 @@ const Header: FC<IProps> = ({ toggleModal }) => {
             <div
               className={styles.Language}
               onClick={() => {
-                setLanguage((prev) => (prev === 'ua' ? 'en' : 'ua'));
+                setLanguage((prev) => {
+                  window.localStorage.setItem(
+                    'language',
+                    prev === 'ua' ? 'en' : 'ua',
+                  );
+                  return prev === 'ua' ? 'en' : 'ua';
+                });
               }}
             >
               <svg

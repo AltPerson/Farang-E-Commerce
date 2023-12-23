@@ -12,7 +12,7 @@ export interface ITranslateContext {
 }
 
 export const TranslateContext = createContext<ITranslateContext>({
-  language: 'ua',
+  language: '',
   setLanguage: () => {},
 });
 
@@ -21,7 +21,11 @@ export default function TranslateProvider({
 }: {
   children: ReactNode;
 }) {
-  const [language, setLanguage] = useState('ua');
+  const [language, setLanguage] = useState(() => {
+    return window.localStorage.getItem('language') !== null
+      ? window.localStorage.getItem('language')
+      : 'ua';
+  });
   return (
     <TranslateContext.Provider value={{ language, setLanguage }}>
       {children}

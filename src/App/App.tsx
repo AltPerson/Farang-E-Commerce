@@ -10,12 +10,10 @@ import UpAnchor from 'Components/UpAnchor/UpAnchor';
 import { useLocation } from 'react-router-dom';
 import { CartContext } from './context/CartContext';
 import CartModal from 'Components/CartModal/CartModal';
-import { ProductsContext } from './context/ProductsContext';
 
 const App = () => {
   const { openModal, toggleModal } = useModal();
   const { cartIsOpen } = useContext(CartContext);
-  const { setProductItem } = useContext(ProductsContext);
   const { setScrollOverHeight } = useContext(ScrollContext);
   const location = useLocation();
 
@@ -38,11 +36,6 @@ const App = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
-
-  useEffect(() => {
-    const localStorageData = JSON.parse(localStorage.getItem('products'));
-    setProductItem(localStorageData === null ? [] : localStorageData);
-  }, [setProductItem]);
 
   return (
     <div className="app">

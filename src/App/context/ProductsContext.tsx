@@ -22,7 +22,10 @@ export default function ProductsProvider({
 }: {
   children: ReactNode;
 }) {
-  const [products, setProductItem] = useState<ProductItem[] | []>([]);
+  const [products, setProductItem] = useState<ProductItem[] | []>(() => {
+    const localStorageData = JSON.parse(localStorage.getItem('products'));
+    return localStorageData === null ? [] : localStorageData;
+  });
   return (
     <ProductsContext.Provider value={{ products, setProductItem }}>
       {children}

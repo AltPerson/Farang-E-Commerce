@@ -104,7 +104,7 @@ module.exports = (_, argv) => {
       }),
     ].filter(Boolean),
     devServer: {
-      port: 3000,
+      port: 8000,
       open: true,
       historyApiFallback: true,
       client: {
