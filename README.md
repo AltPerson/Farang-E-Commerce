@@ -2,7 +2,7 @@
 
 <h2>About the project</h2>
 
-<h4 align="center">DISCLAIMER: THIS IS FAKE WEBSITE CREATED ONLY IN STUDY PURPOSES ORIGINAL WEBSITE WAS USED AS REFERENCE.</h4>
+<h4 align="center">DISCLAIMER: THIS IS FAKE WEBSITE CREATED ONLY IN STUDY PURPOSES</h4>
 <p>This is a Farang e-commerce website. This website was created as pet-project, as reference was using <a href='https://teamfarang.com'>original website of Team Farang</a>.
 The website has a convenient and clear design, which will allow you to feel the experience of buying goods more easily. 
 </p>
