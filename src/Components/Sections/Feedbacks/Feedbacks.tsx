@@ -78,6 +78,7 @@ const Feedbacks: FC = () => {
                     {feedBackSection[language]['formFile']}
                   </label>
                   <input
+                    className={styles.FormFileInput}
                     id="file"
                     type="file"
                     accept="image/png, image/jpeg,image/webp"

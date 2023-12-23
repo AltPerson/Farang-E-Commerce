@@ -80,6 +80,22 @@
   font-weight: var(--font-weight-r);
 }
 
+.FormFileInput::file-selector-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s linear;
+}
+
+.FormFileInput::file-selector-button:hover {
+  background-color: rgb(102, 100, 100);
+}
+
 .FormSend button {
   margin-top: 30px;
   font-size: 2em;
